@@ -47,7 +47,7 @@ section {
 
 .card {
     display: flex;
-    width: 250px;
+    width: 232px;
     height: 400px;
     border-radius: 12px;
     margin: 20px;
@@ -59,6 +59,8 @@ section {
 
 main {
     flex-grow: 1; 
+    display: flex;
+    display: inline-block;
 }
 
 h3 {
