@@ -18,6 +18,7 @@ let cardImage;
 // Cached Element References
 const $card = $('#card');
 const $cardImage = $('#card-image');
+const $kings = $('#kings-count');
 
 // Event Listeners
 $card.on('click', handleClickCard);
@@ -60,7 +61,7 @@ function handleClickCard() {
 
 
 function reset () {
-    
+
 
 }
 
@@ -74,8 +75,9 @@ function render(cardDetail) {
 
     if (cardDetail.cards[0].value === "KING") {
         Kings.push(cardDetail.cards[0].value);
+        $kings.text(Kings.length);
     } else if (Kings.length === 4) {
-        alert('THE GAME IS OVER! You win! Play again?');
+        alert('THE GAME IS OVER! Yuo aRe Durnk!');
         return;
 
     } else {pile.push(cardDetail.cards[0].value);}
