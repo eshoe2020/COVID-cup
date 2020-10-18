@@ -14,10 +14,10 @@ The solo drinking game for the second wave.
 - AJAX
 
 ## Features
-- Click on the "deck" to "turn over" a card
-- Each number-card has a prompt guiding the user to drink, dance, take a break, or other task. 
+- Clicking on the highlighted "deck" will "turn over" a card
+- A card will show up and a prompt will pop up directing the user to a task
    - all tasks can be performed alone
-
+- King's are counted below the deck and card, turning over 4 Kings ends the game.
 
 ## Stretch Goals/Future Goals
 - Fix issue with first card
