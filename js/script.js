@@ -2,8 +2,6 @@
 const SHUFFLED_DECK = 'https://deckofcardsapi.com/api/deck/new/draw/?count=1';
 const DRAW_DECK = 'https://deckofcardsapi.com/api/deck/';
 
-
-
 // Variables
 let Kings = [];
 let pile = [];
@@ -18,19 +16,7 @@ const $card = $('#card');
 const $cardImage = $('#card-image');
 const $kings = $('#kings-count');
 const $modal = $('#modal');
-const $ace = $('#ACE');
-const $two = $('#2');
-const $three = $('#3');
-const $four = $('#4');
-const $five = $('#5');
-const $six = $('#6');
-const $seven = $('#7');
-const $eight = $('#8');
-const $nine = $('#9');
-const $ten = $('#10');
-const $jack = $('#JACK');
-const $queen = $('#QUEEN');
-const $king = $('#KING');
+
 
 // Event Listeners
 $card.on('click', handleClickCard);
@@ -49,7 +35,7 @@ function handleClickCard() {
             .then(function (response) {
                 console.log(response);
                 DECK_ID = response.deck_id;
-                $cardImage.attr('src',response.cards[0].image); 
+                $cardImage.attr('src', response.cards[0].image);
 
             })
     } else {
@@ -63,7 +49,6 @@ function handleClickCard() {
     }
 
 };
-
 
 
 
@@ -81,7 +66,7 @@ function render() {
     $modal.modal();
 
     const $closeBtn = $('.close-modal');
-        $closeBtn.on('click', function () {
+    $closeBtn.on('click', function () {
         selectedCard.toggle('hidden')
     });
 
@@ -100,8 +85,3 @@ function render() {
 
 
 }
-
-
-
-
-
