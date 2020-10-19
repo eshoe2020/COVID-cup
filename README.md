@@ -26,3 +26,6 @@ The solo drinking game for the second wave.
 - Add spotify link to FIVE prompt (FIVE is for JIVE)
 - Add a shuffle deck button (would reset the game)
 - Remove GA-specific prompt for JACK (back), make it more applicable to everyday user
+
+## Link(s)
+- https://eshoe2020.github.io/COVID-cup/
