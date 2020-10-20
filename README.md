@@ -38,9 +38,6 @@ Many of us are trapped at home, socially distancing, and drinking solo. This pro
 - The game ends when 4 Kings are turned over
 - The game is fitted for mobile screens as well, portrait-view only. 
 
-## Installation
--  follow github directions for preferred installation method
-
 ## Link(s)
 - https://eshoe2020.github.io/COVIDs-cup/
 
