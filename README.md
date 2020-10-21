@@ -43,9 +43,8 @@ Many of us are trapped at home, socially distancing, and drinking solo. This pro
 
 
 ## Stretch Goals/Future Goals
-- Fix issue with first card prompt not appearing
-- Make the prompts modal error-proof (CORS issue?)
 - Add animation to click so it looks like a card is being turned over
+- Add more specific ACE prompts (on aces 1+3, Aces are drawn you must keep your pinky out, on Aces 2+4, you can put your pinky down)
 - Add spotify link to FIVE prompt
 - Have rotating lists of prompts, wider variety of tasks
 - Make a widescreen-friendly version
