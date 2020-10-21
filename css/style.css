@@ -4,7 +4,6 @@
 
 }
 
-
 h1,
 h2,
 h3,
@@ -24,7 +23,7 @@ header {
     background-position: center;
     background-height: 45vh;
     position: fixed;
-    top:0;
+    top: 0;
     width: 100%;
 }
 
@@ -37,11 +36,11 @@ footer {
 }
 
 h1 {
-    margin: 30px 0 30px 0;
+    margin: 30px 0 20px 0;
 }
 
 h2 {
-    margin: 40px;
+    margin: 10px 0 40px 0;
     font-family: 'Acme';
     font-size: 45px;
     color: black;
@@ -95,7 +94,6 @@ img {
 
 
 main {
-    margin-top: 170px;
     justify-content: center;
     align-items: center;
 }
@@ -104,11 +102,14 @@ h3 {
     font-family: 'Acme';
     font-size: 55px;
     letter-spacing: 2px;
-    
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+
+
 }
 
 h3>div {
-    font-size: 55px;
+    font-size: 75px;
 }
 
 footer {
@@ -160,16 +161,21 @@ footer {
         flex-wrap: nowrap;
         height: 675px;
     }
-  
+
+    main {
+        margin-top: 220px;
+    }
+
     header {
-        font-size: 20px;
+        font-size: 25px;
         position: fixed;
-        top:0;
+        top: 0;
         width: 100%;
         margin-top: 2px;
-    } 
-    
-    h2, h3 {
+    }
+
+    h2,
+    h3 {
         font-size: 20px;
         color: whitesmoke;
         text-shadow: 1px 1px 1px black;
@@ -179,6 +185,10 @@ footer {
     #pile {
         width: 110px;
         height: 180px;
+    }
+
+    #card:hover {
+        box-shadow: 6px 6px 15px 6px #0fc72d;
     }
 
     #card {
@@ -212,6 +222,64 @@ footer {
         bottom: 0;
         font-size: 10px;
     }
- 
 
-}  
+
+}
+
+@media screen and (max-height: 790px) and (max-width:1120px) {
+
+    main {
+        margin-top: 50px;
+    }
+
+    header {
+        font-size: 35px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin-top: 2px;
+    }
+
+    h2,
+    h3 {
+        font-size: 30px;
+    }
+
+    #card,
+    #pile {
+        width: 200px;
+        height: 330px;
+    }
+
+    img {
+        width: 200px;
+        height: 330px;
+        border-radius: 18px;
+        border: 3px solid #ae3333;
+    }
+
+    h3 {
+        font-size: 30px;
+        color: whitesmoke;
+        text-shadow: 1px 1px 1px black;
+        margin-bottom: 50px;
+    }
+
+    h3>div {
+        font-size: 40px;
+        color: whitesmoke;
+        text-shadow: 1px 1px 1px black;
+
+    }
+
+    .modal {
+        font-size: 25px;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        font-size: 10px;
+    }
+
+}
