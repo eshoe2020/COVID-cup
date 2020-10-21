@@ -1,7 +1,7 @@
 # COVID's-Cup
 
 This is a solo drinking game for the second wave. 
-A COVID-19 themed version of the party game known you may know as "King's Cup", "King's" or by other monikers. 
+A COVID-19 themed version of the party gameyou may know as "King's Cup", "King's" or by other monikers. 
 
 ## Motivation
 
