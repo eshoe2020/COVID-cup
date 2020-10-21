@@ -13,11 +13,9 @@ Many of us are trapped at home socially distancing, and drinking solo. This proj
 
 ![DesktopView](./IMG/UI-desktop.png "UI-desktop")
 
-![HoverFeature](./IMG/Hover-feature.png "Hover-feature")
+![gameplay](./IMG/gameplay.png "gameplay")
 
-![King-count](./IMG/King-count.png)
-
-![mobile-view](./IMG/mobile-version.png)
+![mobile-view](./IMG/mobile-version.png "mobile-version")
 
 
 ## Technologies Used
@@ -47,7 +45,8 @@ Many of us are trapped at home socially distancing, and drinking solo. This proj
 
 ## Stretch Goals/Future Goals
 
-- The prompts work best when allowed time in-between clicks, I want to fix this and allow the user to click at any speed.
+- Fix the issue with prompt, no errors are coming up, WHY IS THIS HAPPENING.
+- Have a blank/greyed out space where the turned over cards will go. 
 - Add animation to click so it looks like a card is being turned over.
 - Add more specific ACE prompts (on aces 1+3, Aces are drawn you must keep your pinky out, on Aces 2+4, you can put your pinky down).
 - Add spotify link to FIVE prompt.
