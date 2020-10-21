@@ -226,7 +226,7 @@ footer {
 
 }
 
-@media screen and (max-height: 790px) and (max-width:1120px) {
+/* @media screen and (max-height: 790px) and (max-width:1120px) {
 
     main {
         margin-top: 50px;
@@ -282,4 +282,4 @@ footer {
         font-size: 10px;
     }
 
-}
+} */
