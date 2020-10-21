@@ -155,7 +155,7 @@ footer {
     text-align: center;
 }
 
-@media screen and (min-width: 375px) (max-height:812) {
+@media screen and (min-width: 375px) {
 
     body {
         flex-wrap: nowrap;
