@@ -71,13 +71,13 @@ function render() {
 
 
     cardValue = cardDetail.cards[0].value;
-    console.log(cardValue);
     selectedCard = $(`#${cardValue}`);
     selectedCard.toggle('hidden');
     $modal.modal();
 
     const $closeBtn = $('.close-modal');
     $closeBtn.on('click', function () {
+        console.log('Selected Card: ', selectedCard);
         selectedCard.toggle('hidden')
     });
 
@@ -86,13 +86,12 @@ function render() {
     if (cardDetail.cards[0].value === "KING") {
         Kings.push(cardDetail.cards[0].value);
         $kings.text(Kings.length);
+    } else if (cardDetail.cards[0].value ===! "King") {
+        pile.push(cardDetail.cards[0].value);
     } else if (Kings.length === 4) {
         alert('THE GAME IS OVER! Yuo aRe Durnk!');
         return;
-
-    } else {
-        pile.push(cardDetail.cards[0].value);
     }
 
-
+    
 }

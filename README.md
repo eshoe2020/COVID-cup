@@ -37,6 +37,7 @@ Many of us are trapped at home socially distancing, and drinking solo. This proj
 - The # of Kings turned over is kept track of below the deck.
 - The game ends when 4 Kings are turned over.
 - The game is fitted for mobile screens as well, portrait-view only. 
+- Note: user must be careful to exit prompt by clicking ONLY on the "X" in the corner
 
 ## Link(s)
 
@@ -45,10 +46,10 @@ Many of us are trapped at home socially distancing, and drinking solo. This proj
 
 ## Stretch Goals/Future Goals
 
-- Fix the issue with prompt, no errors are coming up, WHY IS THIS HAPPENING.
-- Have a blank/greyed out space where the turned over cards will go. 
+- Eliminate the toggle mishaps when you click outside of the "X" to exit.
 - Add animation to click so it looks like a card is being turned over.
-- Add more specific ACE prompts (on aces 1+3, Aces are drawn you must keep your pinky out, on Aces 2+4, you can put your pinky down).
-- Add spotify link to FIVE prompt.
-- Have rotating lists of prompts, wider variety of tasks.
-- Make a widescreen-friendly version.
+- Increase/diversify the prompts, including but not limited to:
+   - Add more specific ACE prompts (on aces 1+3, Aces are drawn you must keep your pinky out, on Aces 2+4, you can put your pinky down).
+   - Add spotify link to FIVE prompt.
+   - Make prompts that are suit-dependent as well.
+- Make a landscape-friendly version for mobile phones.

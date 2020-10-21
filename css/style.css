@@ -21,7 +21,6 @@ header {
     background-image: url('../IMG/cup.png');
     background-size: contain;
     background-position: center;
-    background-height: 45vh;
     position: fixed;
     top: 0;
     width: 100%;
