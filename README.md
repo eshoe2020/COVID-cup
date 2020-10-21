@@ -1,11 +1,11 @@
 # COVID's-Cup
 
 This is a solo drinking game for the second wave. 
-A COVID-19 themed version of the party game known as "King's Cup", "King's" or by other monikers. 
+A COVID-19 themed version of the party game known you may know as "King's Cup", "King's" or by other monikers. 
 
 ## Motivation
 
-Many of us are trapped at home socially distancing, and drinking solo. This project aim to make the act of drinking alone FUN instead of sad. 
+Many of us are trapped at home socially distancing, and drinking solo. This project aims to make the act of drinking alone FUN instead of sad. 
 
 ## Version 1.0
 
@@ -14,6 +14,8 @@ Many of us are trapped at home socially distancing, and drinking solo. This proj
 ![DesktopView](./IMG/UI-desktop.png "UI-desktop")
 
 ![gameplay](./IMG/gameplay.png "gameplay")
+
+![prompt](./IMG/prompt.png "prompt")
 
 ![mobile-view](./IMG/mobile-version.png "mobile-version")
 
