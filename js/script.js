@@ -36,6 +36,17 @@ function handleClickCard() {
                 console.log(response);
                 DECK_ID = response.deck_id;
                 $cardImage.attr('src', response.cards[0].image);
+                console.log(response.cards[0].value)
+
+                cardValue = response.cards[0].value;
+                selectedCard = $(`#${cardValue}`);
+                selectedCard.toggle('hidden');
+                $modal.modal();
+            
+                const $closeBtn = $('.close-modal');
+                $closeBtn.on('click', function () {
+                    selectedCard.toggle('hidden')
+                });
 
             })
     } else {
@@ -53,16 +64,16 @@ function handleClickCard() {
 
 
 function render() {
-
-
     cardImage = cardDetail.cards[0].image;
+
+
     $cardImage.attr('src', cardImage);
 
 
     cardValue = cardDetail.cards[0].value;
     console.log(cardValue);
-    selectedCard = $(`#${cardValue}`)
-    selectedCard.toggle('hidden')
+    selectedCard = $(`#${cardValue}`);
+    selectedCard.toggle('hidden');
     $modal.modal();
 
     const $closeBtn = $('.close-modal');
